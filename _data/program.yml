@@ -85,7 +85,7 @@ details:
           - title: "Wi-Fi Sensing Robust to Packet Loss"
             authors: Kotone Sekiguchi (Aoyama Gakuin University); Yuusuke Kawakita (Kanagawa Institute of Technology); Yui Yamashita (Aoyama Gakuin University); Yoshito Tobe (Aoyama Gakuin University)        
 
-          - title: The Early Prune Catches the Model: Enhancing CNN Training Efficiency with Early-Epoch Pruning
+          - title: "The Early Prune Catches the Model: Enhancing CNN Training Efficiency with Early-Epoch Pruning"
             authors: Musfira Khan (University of Helsinki); Agustin Zuniga (University of Helsinki); Sasu Tarkoma (University of Helsinki); Petteri Nurmi (University of Helsinki)
 
     - type: panel
