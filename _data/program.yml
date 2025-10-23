@@ -37,23 +37,23 @@ details:
           
     - type: panel
       time_slot: 11:30 - 12:30
-      description: "Panel 1: Future of conferences: In-person? Virtual? Hybrid?"
-      color: orange
-      panel1: Prof. Falko Dressler
-      link1: https://www.tkn.tu-berlin.de/team/dressler/
-      panel2: Dr. Kanchana Thilakarathna
-      link2: https://www.sydney.edu.au/engineering/about/our-people/academic-staff/kanchana-thilakarathna.html
-      panel3:  Prof. Wen Hu
-      link3: https://github.com/wenh77/Website/wiki/
-      panel4:  A.Prof. Dinesh Bharadia
-      link4: https://dineshb-ucsd.github.io/
-      pic1: falko.jpg
-      pic2: kanchana.png
-      pic3: wen.jpg 
-      pic4: dinesh.jpg
-    - type: session
-      time_slot: 11:30 - 12:00
-      title: 3 Minute Thesis Competition
+      description: "Panel 1"
+    #   color: orange
+    #   panel1: Prof. Falko Dressler
+    #   link1: https://www.tkn.tu-berlin.de/team/dressler/
+    #   panel2: Dr. Kanchana Thilakarathna
+    #   link2: https://www.sydney.edu.au/engineering/about/our-people/academic-staff/kanchana-thilakarathna.html
+    #   panel3:  Prof. Wen Hu
+    #   link3: https://github.com/wenh77/Website/wiki/
+    #   panel4:  A.Prof. Dinesh Bharadia
+    #   link4: https://dineshb-ucsd.github.io/
+    #   pic1: falko.jpg
+    #   pic2: kanchana.png
+    #   pic3: wen.jpg 
+    #   pic4: dinesh.jpg
+    # - type: session
+    #   time_slot: 11:30 - 12:00
+    #   title: 3 Minute Thesis Competition
     
     - type: main
       time_slot: 12:30 - 2:00
@@ -63,7 +63,7 @@ details:
     
     - type: keynote
       time_slot: 1:30 - 2:30
-      description: "Keynote 1: Building On-device Multimodal Sensing and AI Systems for Smart Health"
+      description: "Keynote 2: Building On-device Multimodal Sensing and AI Systems for Smart Health"
       author: Xiaomin Ouyang (HKUST)
       link: https://xmouyang.github.io/
       bio: "Xiaomin Ouyang is an Assistant Professor at the Department of Computer Science & Engineering, Hong Kong University of Science and Technology. Previously, she was a postdoctoral researcher at UCLA and received her Ph.D. degree from CUHK. Her research interests include embedded AI, IoT, and smart health, with a primary focus on building AI-powered mobile and IoT systems for in-home and community-based healthcare. She received Distinguished TPC members at ACM SenSys 2025, ACM MobiSys 2023 Best Paper Award and ACM SIGBED China Outstanding Doctoral Dissertation Award. She was named one of EECS Rising Stars in 2023 and NIH mHealth Scholars in 2024."
@@ -90,20 +90,20 @@ details:
 
     - type: panel
       time_slot: 3:30 - 4:30
-      description: "Panel 2: Beyond the PhD: Lessons Learned from Early Career Researchers"
+      description: "Panel 2"
       color: orange
-      panel1: Prof. Deepak Vasisht
-      link1: https://deepakv.web.illinois.edu
-      panel2: Prof. Dimitrios Koutsonikolas
-      link2: https://ece.northeastern.edu/fac-ece/dkoutsonikolas/
-      panel3: Dr. Jiajun Liu
-      link3: https://people.csiro.au/L/J/ryan-liu/
-      panel4: Dr. Victor Bahl
-      link4: https://www.microsoft.com/en-us/research/people/bahl/
-      pic1: deepak.png
-      pic2: dimitrios.jpg
-      pic3: jiajun.jpg
-      pic4: victor.jpg
+      # panel1: Prof. Deepak Vasisht
+      # link1: https://deepakv.web.illinois.edu
+      # panel2: Prof. Dimitrios Koutsonikolas
+      # link2: https://ece.northeastern.edu/fac-ece/dkoutsonikolas/
+      # panel3: Dr. Jiajun Liu
+      # link3: https://people.csiro.au/L/J/ryan-liu/
+      # panel4: Dr. Victor Bahl
+      # link4: https://www.microsoft.com/en-us/research/people/bahl/
+      # pic1: deepak.png
+      # pic2: dimitrios.jpg
+      # pic3: jiajun.jpg
+      # pic4: victor.jpg
       
     - type: main
       time_slot: 4:30 - 4:45
