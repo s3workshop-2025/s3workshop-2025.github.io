@@ -2,33 +2,41 @@ date:
 order: 0
 
 details:
-    - type: main
-      time_slot: 8:00 - 9:00
-      description: Registration
-      color: green
 
     - type: main
-      time_slot: 9:00 - 9:05
-      description: Opening Note
+      time_slot: 9:25 - 9:30
+      description: Opening Remarks
       color: white
       
     - type: keynote
-      time_slot: 9:05 - 10:00
-      description: "Keynote 1: Toward Hybridized Cyber Physical Systems (H-CPS)"
-      author: Falko Dressler (TU Berlin)
-      link: https://www.tkn.tu-berlin.de/team/dressler/
-      bio: "Falko Dressler is full professor and Chair for Telecommunication Networks at the School of Electrical Engineering and Computer Science, TU Berlin. He received his M.Sc. and Ph.D. degrees from the Dept. of Computer Science, University of Erlangen in 1998 and 2003, respectively. He is an IEEE Fellow as well as an ACM Distinguished Member. His research objectives include adaptive wireless networking (sub-6GHz, mmWave, visible light, molecular communication) and wireless-based sensing with applications in ad hoc and sensor networks, the Internet of Things, and Cyber-Physical Systems."
-      pic: falko.jpg
+      time_slot: 9:30 - 10:30
+      description: "Keynote 1: Towards Sensing Intelligence with Ambient Systems"
+      author: Dongyao Chen (Shanghai Jiao Tong University)
+      link: https://chendy.tech/
+      bio: "Dongyao Chen is an Assistant Professor of Computer Science at Shanghai Jiao Tong University (SJTU). He received his Ph.D. in Computer Science and Engineering from the University of Michigan - Ann Arbor in 2020, advised by Prof. Kang G. Shin. His research interests lie in mobile sensing, wearable systems, and security/privacy issues of emerging sensing technologies. His research has been published in conferences such as MobiCom, MobiSys, UbiComp, SenSys, and CCS. His work received the Distinguished Paper Award at UbiComp 2025 and the Best Paper Award at VehicleSec 2023. He co-founded DriverX, a mobile telematic startup focusing on democratizing sensing systems for safe driving."
+      pic: dongyao.jpg
       color: orange
-      slides: "keynote_dressler.pdf"
+      abstract: "Recent advancements in cyber-physical systems — such as wearable devices, virtual reality, and robotics — are transforming how we live, work, and commute. These fast-emerging technologies lead to various unprecedented sensing requirements — for example, can we seamlessly track human motion on a millimeter scale? Is it possible to accurately interpret the nuances of gestures and poses? In this talk, I will first present my recent efforts in developing novel magnetic sensing systems. These systems pave pathways for achieving ultra-accurate sensing accuracy with minimum overheads, thus facilitating essential applications exemplified by at-home healthcare and sports analytics. Next, I will show how ambient sensors, including inertial measurement units (IMUs) embedded in our everyday electronics, can characterize subconscious behaviors like driving habits. Moreover, I will introduce my works on protecting user’s privacy in the era of pervasive sensing. Finally, I will conclude by outlining key challenges and future directions in next-generation sensing systems and beyond."
 
-    - type: main
-      time_slot: 10:00 - 10:30
-      description: Break
-      color: green
-    
-    - type: panel
+    - type: session
       time_slot: 10:30 - 11:30
+      description: Poster Session I
+      color: green
+      papers: 
+          - title: "On Harnessing Idle Compute at the Edge for Foundation Model Training"
+            authors: Leyang Xue (The University of Edinburgh); Meghana Madhyastha (Johns Hopkins University); Myungjin Lee (Cisco Research); Amos Storkey (The University of Edinburgh); Randal Burns (Johns Hopkins University); Mahesh Marina (The University of Edinburgh)
+
+          - title: "Bluetooth-Enabled Transparent RF Sensing"
+            authors: Rong Ding (Shanghai Jiao Tong University); Haiming Jin (Shanghai Jiao Tong University)
+
+          - title: "Intelligent Offloading, Phase-Shift and Trajectory Design in Priority-Aware IRS- and UAV-Assisted MEC Systems"
+            authors: Sinong Zhang (China Three Gorges University); Haowei Wang (China Three Gorges University); Liang Zhao (China Three Gorges University); Wencai Li (China Three Gorges University); Victor C. M. Leung (The University of British Columbia)
+          
+          - title: SPAD-Based Optical Camera Communications in a Warehouse Application
+            authors: Lih Wei Chia (National University of Singapore); Mehul Motani (National Univeristy of Singapore)
+          
+    - type: panel
+      time_slot: 11:30 - 12:30
       description: "Panel 1: Future of conferences: In-person? Virtual? Hybrid?"
       color: orange
       panel1: Prof. Falko Dressler
@@ -46,62 +54,43 @@ details:
     - type: session
       time_slot: 11:30 - 12:00
       title: 3 Minute Thesis Competition
-      #papers:
-      #    - title: Replay-resilient Authentication for IoT
-      #      authors: Ge Wang (Xi'an Jiaotong University); Chen Qian (University of California, Santa Cruz); Haofan Cai (University of California, Santa Cruz); Jinsong Han (Zhejiang University); Jizhong Zhao (Xi'an Jiaotong University)
-      #      link: 278_283_mcbride.pdf
-
-      #    - title: "Frame Aggregation in 802.11ac: Need for Modified Block ACK"
-      #      authors: Muhammad Inamullah (IIT Bombay); Bhaskaran Raman (IIT Bombay)
-      #      link: 258_263_cetinkaya.pdf
-
-       #   - title: Context Aware Data Collection Framework for Critical Infrastructure Monitoring System
-       #     authors: Anirban Das (Indian Institute of Information Technology, Guwahati); Suchetana Chakraborty (Indian Institute of Information Technology, Guwahati)
-       #     link: 264_269_peyrard.pdf
-
-
     
     - type: main
-      time_slot: 12:00 - 1:30
+      time_slot: 12:30 - 2:00
       description: Lunch
       color: green
       
     
     - type: keynote
       time_slot: 1:30 - 2:30
-      description: "Keynote 2: AI-driven Networks across Earth and Space"
-      author: Deepak Vasisht (University of Illinois Urbana-Champaign)
-      link: https://deepakv.web.illinois.edu
-      pic: deepak.png
-      bio: "Deepak Vasisht is an Assistant Professor in Computer Science at UIUC. He works on wireless networks and Internet-of-Things. His current research focuses on next generation networking systems such as satellite networks, 5G, and in-body networks. He recently graduated with a Ph.D. from MIT, advised by Prof. Dina Katabi. He was also the inaugural Industry Research Fellow at Microsoft, where he worked on FarmBeats among other things."
+      description: "Keynote 1: Building On-device Multimodal Sensing and AI Systems for Smart Health"
+      author: Xiaomin Ouyang (HKUST)
+      link: https://xmouyang.github.io/
+      bio: "Xiaomin Ouyang is an Assistant Professor at the Department of Computer Science & Engineering, Hong Kong University of Science and Technology. Previously, she was a postdoctoral researcher at UCLA and received her Ph.D. degree from CUHK. Her research interests include embedded AI, IoT, and smart health, with a primary focus on building AI-powered mobile and IoT systems for in-home and community-based healthcare. She received Distinguished TPC members at ACM SenSys 2025, ACM MobiSys 2023 Best Paper Award and ACM SIGBED China Outstanding Doctoral Dissertation Award. She was named one of EECS Rising Stars in 2023 and NIH mHealth Scholars in 2024."
+      pic: xiaomin.jpg
       color: orange
-      slides: "keynote_vasisht.pdf"
+      abstract: "Nowadays Internet of Things (IoT) and mobile devices are all around our daily lives, offering the capabilities of in-situ sensing and networked computing across connected devices. However, deploying AI models on resource-constrained devices and in real-world applications still faces many practical challenges. Our work aims to empower IoT and mobile devices with AI to create ambient intelligence, facilitating real-world applications, particularly in smart health. First, I will introduce how we address real-world data and system challenges in advancing multimodal AI within practical IoT systems, such as distributed and imperfect IoT data, limited resources, and system dynamics. Then, I will talk about our work on leveraging AI-powered multimodal sensor devices for in-home and community-based healthcare, including detecting behavioral biomarkers of chronic diseases, generating personalized health interventions using large language models (LLMs), and understanding behavioural and cognitive activities."
 
     - type: session
-      time_slot: 2:30 - 3:00
-      title: Paper Session
-      papers:
-          - title: "BloomXNOR-Net: Privacy-Preserving Machine Learning in IoT"
-            authors: Zakia Zaman (UNSW); Wanli Xue (UNSW); Praveen Gauravaram (TCS Australia); Wen Hu (UNSW); Sanjay Jha (UNSW)
-            link: 270_275_yan.pdf
-
-          - title: "ViWatch: Harness Vibrations for Finger Interactions with Commodity Smartwatches"
-            authors: Wenqiang Chen (University of Virginia); John Stankovic (University of Virginia)
-            link: 290_295_sciancalepore.pdf
-
-          - title: "Demo: NextG-UP: A Longitudinal and Cross-Sectional Study of Uplink Performance of 5G Networks"
-            authors: Moinak Ghoshal (Northeastern University); Imran Khan (Northeastern University); Qiang Xu (Purdue University); Z. Jonny Kong (Purdue University); Y. Charlie Hu (Purdue University); Dimitrios Koutsonikolas (Northeastern University)
-            link: 252_257_kasinathan.pdf
-
-
-    - type: main
-      time_slot: 3:00 - 3:30
-      description: Break
+      time_slot: 2:30 - 3:30
+      description: Poster Session II
       color: green
+      papers: 
+          - title: "Demo: A Campus Scale Private 5G Open RAN Testbed"
+            authors: Andrew Ferguson (University of Edinburgh); Ujjwal Pawar (The University of Edinburgh); Tianxin Wang (The University of Edinburgh); Mahesh Marina (University of Edinburgh)        
+          
+          - title: "PHOENIX: Protocol State Machine Recovery from Events in 5G Logs"
+            authors: Qingyuan Zheng (University of California San Diego); Ushasi Ghosh (University of California San Diego); Ali Mamaghani (University of California San Diego); Srinivas Shakkottai (Texas A&M University); Dinesh Bharadia (University of California San Diego)
+          
+          - title: "Wi-Fi Sensing Robust to Packet Loss"
+            authors: Kotone Sekiguchi (Aoyama Gakuin University); Yuusuke Kawakita (Kanagawa Institute of Technology); Yui Yamashita (Aoyama Gakuin University); Yoshito Tobe (Aoyama Gakuin University)        
+
+          - title: The Early Prune Catches the Model: Enhancing CNN Training Efficiency with Early-Epoch Pruning
+            authors: Musfira Khan (University of Helsinki); Agustin Zuniga (University of Helsinki); Sasu Tarkoma (University of Helsinki); Petteri Nurmi (University of Helsinki)
 
     - type: panel
       time_slot: 3:30 - 4:30
-      description: "Panel 2: Academia vs Industry as a career choice"
+      description: "Panel 2: Beyond the PhD: Lessons Learned from Early Career Researchers"
       color: orange
       panel1: Prof. Deepak Vasisht
       link1: https://deepakv.web.illinois.edu
